@@ -1,0 +1,6 @@
+{
+  "name": "electron-git",
+  "version": "0.0.1",
+  "main": "main.js",
+  "dependencies": {}
+}
