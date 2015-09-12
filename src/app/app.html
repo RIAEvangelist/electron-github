@@ -1,25 +1,22 @@
 <html>
     <head>
+        <meta http-equiv='Content-type' content='text/html; charset=utf-8'>
+        <title>Electron Git</title>
+        <link rel='stylesheet' href='cascade/assets/css/cascade/production/build-full.min.css'/>
         <link rel='stylesheet' href='css/app.css' />
-
-
-        <!-- Web Components -->
-        <link rel='import' href='wc/electron-header/wc.html' async>
-
     </head>
     <body>
-        <electron-header>
-            <span data-title>
-                Electron Git
-            </span>
-        </electron-header>
+        <!-- namespaces -->
+        <script type='text/js' src='js/app.store.js'></script>
 
-        <!-- special header view
-        <electron-header data-view='special'>
-            <span data-title>
-                Electron Git
-            </span>
-        </electron-header>
-        -->
+        <!-- frameworks & libs -->
+        <script src='react/build/react.js'></script>
+        <script src='react/build/JSXTransformer.js'></script>
+
+        <!-- components -->
+        <script type='text/jsx' src='components/ui.AppFrame.jsx'></script>
+
+        <!-- app -->
+        <script type='text/js' src='js/app.js'></script>
     </body>
 </html>
